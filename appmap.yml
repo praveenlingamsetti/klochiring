@@ -1,0 +1,5 @@
+name: Assessments_Made_Simple
+packages:
+  - path: src
+language: javascript
+appmap_dir: tmp/appmap

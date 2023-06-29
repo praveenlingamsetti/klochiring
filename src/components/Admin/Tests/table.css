@@ -1,0 +1,95 @@
+.test-table {
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+table td:first-child {
+  border-left: thin solid;
+}
+
+table td:last-child {
+  border-right: thin solid;
+}
+table td {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  height: 20px;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1280px) {
+  .test-table {
+    display: none;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .mobile-table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .mobile-table {
+    display: none;
+  }
+}
+.table-data-cont {
+  border: 1px solid black;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 3px 3px lightgray;
+}
+@media screen and (max-width: 450px) {
+  .table-data-cont {
+    width: 300px;
+  }
+}
+.table-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+.view-button {
+  align-self: center;
+}
+.btn {
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: lightblue;
+  width: 120px;
+  height: 50px;
+  font-size: 18px;
+}
+.test-reports-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

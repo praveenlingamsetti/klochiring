@@ -1,0 +1,23 @@
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 3px;
+  border: 1px solid black;
+}
+table td {
+  border-top: thin solid;
+  border-bottom: thin solid;
+}
+
+table td:first-child {
+  border-left: thin solid;
+}
+
+table td:last-child {
+  border-right: thin solid;
+}
+table td {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
